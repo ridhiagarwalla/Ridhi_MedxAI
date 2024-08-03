@@ -62,7 +62,7 @@ export const SignUp = (Email, password) => {
 export const Login = (Email, Pass) => {
   return async (dispatch) => {
     const res = await fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCoXKCVfRF2vSqysBuN8nAHe966La8_dC4",
+      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=",
       {
         method: "POST",
         headers: {
